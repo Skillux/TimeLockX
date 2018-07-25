@@ -1,0 +1,54 @@
+# {+}-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-{+}
+#                                                                  
+#                             TimeLockX v1.0                        
+#                                                                  
+#                             Author: Skillux                         
+#                                                                  
+# {+}-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-{+}
+
+
+# {+}=--=-=-=-=-=-=-=-=-=-=-=[ Placeholders ]=-=-=-=-=-=-=-=-=-=-=-=-={+}
+
+# %time% : Represents the TimeLock mode/tick being set (Day/Night/Ticks).
+
+
+# {+}-=-=-=-=-=-=-=-=-=-=-=-=-=[ Messages ]=-=-=-=-=-=-=-=-=-=-=-=-=-={+}
+
+# Customize the message that appears when you reload the config (/timelock reload):
+Reload-Message: '&8[&6TimeLockX&8] &aThe config file has been reloaded!'
+
+
+# Customize the message that appears when a player runs the command (/timelock) without permission:
+No-Permission: '&8[&6TimeLockX&8] &4You do not have permission to use this command!'
+
+# Customize the message that appears when a player tries to lock time to an invalid number.
+Invalid-Ticks: '&8[&6TimeLockX&8] &cYou have entered an invalid number. Please enter a number between &60 - 24000&c.'
+
+# Customize the message that appears when a WeatherLock mode is already selected:
+Already-Enabled: '&8[&6TimeLockX&8] &cThis TimeLock mode is already enabled in this world!'
+
+
+# Customize the message that appears when TimeLock is toggled off in the player's current world"
+Turned-Off: '&8[&6TimeLockX&8] &7TimeLock has been toggled &coff&7. The time cycle is back to normal.'
+
+
+# Customize the message that appears when a TimeLock mode is selected in a player's current world:
+TimeLock-Set: '&8[&6TimeLockX&8] &7Successfully locked the time to &6%time%&7 in your current world. Use the command &e/timelock off &7to return the normal time cycle.'
+
+
+# Customize the message that appears when the command is used incorrectly:
+Invalid-Usage: '&8[&6TimeLockX&8] &cInvalid Usage. Use the command &6/timelock &cfor help.'
+
+
+# Customize the message that appears when a player attempts to toggle off WeatherLock without having any mode selected.
+No-Selected-Mode: '&8[&6TimeLockX&8] &cYou do not have any TimeLock modes selected to turn off. Use the command &6/timelock &cfor help.'
+
+
+
+# {+}-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-{+}
+#                                                                  
+#                              Any Questions?                         
+#                                                                  
+#                      Message me on Spigot: @Skillux                 
+#                                                                  
+# {+}-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-{+}

@@ -1,0 +1,12 @@
+name: TimeLockX
+main: me.skillux.timelockx.Main
+author: Skillux
+version: 1.0
+commands:
+  timelock:
+    usage: /<command> [day|night|ticks|reload|off]
+    description: Changes and locks the time to either day, night, or a custom value of ticks.
+    aliases: [tl, locktime, timelockx, tlx, lt]
+permissions:
+  timelockx.admin:
+    description: Gives access to all TimeLockX commands.
